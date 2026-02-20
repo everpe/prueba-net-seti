@@ -71,7 +71,7 @@ dotnet run
 
 ### Request
 ```bash
-curl -X POST http://localhost:8080/api/pedidos/enviar \
+curl -X POST http://localhost:8081/api/pedidos/enviar \
   -H "Content-Type: application/json" \
   -d '{
     "enviarPedido": {
